@@ -1,6 +1,6 @@
-![capa_anatel](https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/e45f7a64-1c9a-4210-97b7-ecaf86be4318)
+![background_enem](https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/ce2a15e9-4540-4b1d-8b7a-344ef5a6daf5)
 
-**Link da aplicação:** [Dashboard_ANATEL](https://app.powerbi.com/view?r=eyJrIjoiZjM0MzA5N2UtOTUzNS00N2Q2LWFmNzYtMTM4MGM5Y2VhNjY2IiwidCI6IjFlNDMyOWIyLWNiOWYtNDM0Yy1iM2FjLTBhMmFiMTAxNTRlZiJ9)
+**Link da aplicação:** [Dashboard_ENEM](https://app.powerbi.com/view?r=eyJrIjoiOTFhMDlkOTktODVmYi00YzUxLWJkZGYtZTA0ZTc2NjA5ZGFkIiwidCI6IjFlNDMyOWIyLWNiOWYtNDM0Yy1iM2FjLTBhMmFiMTAxNTRlZiJ9)
 
 ### Tecnologias utilizadas: 
 | [<img align="center" alt="Power bi" height="60" width="60" src="https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/d239f769-5b2a-4cf0-8198-441a8adcbda0">](https://powerbi.microsoft.com/pt-br/desktop/) | [<img align="center" alt="Figma" height="60" width="60" src="https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/41c4197b-df11-4c43-8b84-6af9f1edbddb">](https://www.streamlit.io/) | [<img align="center" alt="DAX Studio" height="60" width="60" src="https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/e2c6fb50-3e25-4a91-91c1-5c3262c083c4">] | [<img align="center" alt="Power Query" height="60" width="60" src="https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/b41eddea-d513-4e3b-82de-d1dab2897e88">] |
@@ -10,9 +10,9 @@
 
 ### Objetivo: 
 
-Analisar o desempenho das operadoras no atendimento das reclamações registradas por usuários de telecomunicações no sistema Anatel Consumidor. Indicadores como índice de solução e o tempo médio de resposta das empresas, índice de satisfação do cliente e qual resolve mais os problemas, entre outros.
+O objetivo é analisar o desempenho dos alunos no Exame Nacional do Ensino Médio (ENEM) e como ele se relaciona com o perfil dos candidatos e a distribuição regional dos inscritos. As análises incluem indicadores baseados em gênero, raça/cor, faixa etária, tipo de escola, estados, regiões, entre outros. Essa abordagem proporciona insights sobre possíveis disparidades e desafios enfrentados por diferentes grupos de candidatos, auxiliando na formulação de políticas educacionais mais inclusivas e eficazes.
 
-Base de dados: https://dados.gov.br/dados/conjuntos-dados/consumidor---indicadores-de-qualidade-de-atendimento
+Base de dados: https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem
 <hr>
 
 ### Etapas do projeto:
@@ -26,15 +26,16 @@ Base de dados: https://dados.gov.br/dados/conjuntos-dados/consumidor---indicado
 
 ### Detalhes:
 
-O Dashboard ANATEL  é composto por 3 painéis indicadores:
-- **Análise Geral:** Este painel permite uma análise abrangente do cenário de reclamações da ANATEL ao longo do tempo, apresentando reclamações por serviços (banda larga fixa, telefone fixo, TV por assinatura, celular pré-pago e celular pós-pago) e as principais operadoras envolvidas (Top 5). Também oferece uma visão dos principais assuntos das reclamações, variação mensal das reclamações, índice de satisfação do cliente, total de reclamações gerais e métricas de atendimento das empresas, como percentual respondido, não respondido, resolvido e não resolvido, além do tempo médio de resposta (TMR).
-- **Análise Regional:** Neste painel, é possível analisar os indicadores por período (anos, semestres, meses) e por região do Brasil, incluindo uma avaliação por entidade (canal de atendimento utilizado para realizar a avaliação da solicitação - ANATEL, Usuário WEB ou Call Center). Apresenta um mapa com a distribuição do número de reclamações por estado e uma tabela com detalhamento das informações para uma compreensão mais detalhada das reclamações.
-- **Análise Operadora:** Segmentado por operadora, este painel permite uma análise detalhada da distribuição do número de reclamações por região, estado, ano e assunto, apresentando as informações de forma organizada e hierárquica através de um gráfico TreeView.
-  hr>
+O Dashboard ENEM 2022 é composto por 4 painéis indicadores:
+- **Relatório de Notas:** Permite a análise das notas por "Estados do Brasil" ou geral, com o filtro "Todos", e pela categoria "Treineiro". Os cenários incluem categoria de escola, gênero, idioma escolhido, faixa etária, raça/cor, estado ou região. Os cards destacam as médias por área da prova (Redação, Matemática, Linguagens e Códigos, Ciências Humanas e Ciências da Natureza), além da nota máxima e mínima de cada área.
+Os cards em destaque superior apresentam as médias por área da prova (Redação, Matemática, Linguagens e Códigos, Ciências Humanas e Ciências da Natureza) além da nota máxima e mínima da área (diferente de zero).
+- **Perfil dos Inscritos:** Permite analisar a quantidade de inscritos por Região, estado e Gênero, relacionando-os com variáveis como raça/cor, tipo de escola, faixa etária e se o inscrito é treineiro ou não.
+- **Análise Demográfica de Inscritos:** Baseia-se no índice de ausências dos inscritos, permitindo analisar a distribuição por Região do Brasil, estados com maiores índices de faltas, municípios, tipo de escola ou a relação entre as ausências nos dias 1, 2 ou ambos.
+- **Detalhamento:** Oferece uma análise minuciosa da distribuição de inscritos entre as variáveis, começando pela segmentação de região e distribuindo entre estado, treineiro ou não, categoria da escola e gênero.
+<hr>
 
 ### Projeto Final:
-
-![anatel1](https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/7cd7854b-53fd-47ef-b1af-131b496bd47b)
-![anatel2](https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/c122e33a-a0dc-41d6-8e6e-57914f508812)
-![anatel3](https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/e8b1f0d1-c8b5-4419-a5d9-6e63cad9fb01)
-![anatel4](https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/be4a29f3-04c9-488e-9a0f-71420ebcd0e5)
+![enem1](https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/e70853e3-b8a3-4ad8-b5d4-78810639a042)
+![enem2](https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/009fcfe0-cae3-4b06-b5c2-4378aba786e9)
+![enem3](https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/f4585139-75b2-4176-a134-86d44de442d6)
+![enem4](https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/22191635-25d1-40f1-8639-997e2e792647)
