@@ -35,7 +35,14 @@ Os cards em destaque superior apresentam as médias por área da prova (Redaçã
 <hr>
 
 ### Projeto Final:
-![enem1](https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/e70853e3-b8a3-4ad8-b5d4-78810639a042)
-![enem2](https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/009fcfe0-cae3-4b06-b5c2-4378aba786e9)
-![enem3](https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/f4585139-75b2-4176-a134-86d44de442d6)
-![enem4](https://github.com/AlbertoFAraujo/PBI_DashboardSAC/assets/105552990/22191635-25d1-40f1-8639-997e2e792647)
+![capa](https://github.com/AlbertoFAraujo/PBI_Dashboard_ENEM_2022/assets/105552990/330a8cec-49de-49fa-a75b-f459d2cfa1e7)
+![p1](https://github.com/AlbertoFAraujo/PBI_Dashboard_ENEM_2022/assets/105552990/194d47d9-03eb-499e-a15e-80412ee335d2)
+![p2](https://github.com/AlbertoFAraujo/PBI_Dashboard_ENEM_2022/assets/105552990/2d142b6d-51af-4373-81dc-47be9737b3a0)
+![p2-2](https://github.com/AlbertoFAraujo/PBI_Dashboard_ENEM_2022/assets/105552990/06546e3f-041f-466e-ab4e-9f38617fc9fd)
+![p3](https://github.com/AlbertoFAraujo/PBI_Dashboard_ENEM_2022/assets/105552990/b4c2f5c5-55d3-4775-9bef-744ab746acfe)
+![p4](https://github.com/AlbertoFAraujo/PBI_Dashboard_ENEM_2022/assets/105552990/c377c199-0542-4dd1-9a6a-42245a08c83e)
+
+
+
+
+
